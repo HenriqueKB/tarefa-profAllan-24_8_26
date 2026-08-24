@@ -1,7 +1,7 @@
 # tarefa-profAllan-24_8_26
 
 ## O que é isso?
-### Minha tentativa de fazer uma tarefea passada pelo meu professor (se for concorrer a vereador tem meu voto)
+### Minha tentativa de fazer uma tarefa passada pelo meu professor (se for concorrer a vereador tem meu voto)
 
 ## Detalhes da Atividade:
 
