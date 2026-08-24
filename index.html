@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste JSONPlaceholder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teste JSONPlaceholder</h1>
+
+        <div id="loading" class="loading" style="display: none;">Carregando...</div>
+
+        
+        <form id="postForm" class="form-container">
+            <input type="text" id="title" placeholder="Título" required>
+            <input type="text" id="body" placeholder="Corpo" required>
+            <div class="button-group">
+                <button type="submit">Criar Post</button>
+                <button type="button" id="recarregarPosts">Recarregar Posts</button>
+            </div>
+        </form>
+
+        <h2 class="section-title">Primeiros Cinco Posts:</h2>
+
+        <div id="posts" class="posts"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
